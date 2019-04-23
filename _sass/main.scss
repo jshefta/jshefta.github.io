@@ -1,0 +1,71 @@
+// Colors
+$color-pink: red;
+$color-blue: #83d0f2;
+$color-black: #000000;
+
+// Fonts
+$font-sans-serif: Arial, Sans Serif;
+
+// Spacing
+$line-height: 22px;
+$body-margin: 2em;
+
+body {
+  color: $color-pink;
+  font-family: $font-sans-serif;
+}
+
+
+// Body Border
+
+#top, #bottom, #left, #right {
+	position: fixed;
+  border: 10px solid transparent;
+  border-image: 10 repeating-linear-gradient(45deg, $color-pink 0, $color-pink 1em, transparent 0, transparent 2em,
+              $color-blue 0, $color-blue 3em, transparent 0, transparent 4em);
+
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+// Container Set up
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-text{
+  text-align: center;
+  max-width: 500px;
+  margin: $body-margin;
+    p{
+      line-height: $line-height;
+      color: black;
+    }
+}
+
+// SG Overrides
+.sendgrid-subscription-widget input{
+  border: none;
+}
+
+form#sg-widget{
+  border: 1px solid black;
+}
+
+div#sg-response {
+    text-align: center;
+    margin-top: 1em;
+  }
