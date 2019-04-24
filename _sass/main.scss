@@ -1,17 +1,10 @@
----
----
-
 // Colors
-$color-pink: #FF0000;
+
+$color-pink: red;
 $color-blue: #83d0f2;
 $color-black: #000000;
 
-// Fonts
 $font-sans-serif: Arial, Sans Serif;
-
-// Spacing
-$line-height: 22px;
-$body-margin: 2em;
 
 body {
   color: $color-pink;
@@ -52,11 +45,6 @@ body {
 .main-text{
   text-align: center;
   max-width: 500px;
-  margin: $body-margin;
-    p{
-      line-height: $line-height;
-      color: black;
-    }
 }
 
 // SG Overrides
