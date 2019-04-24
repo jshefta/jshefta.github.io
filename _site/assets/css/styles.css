@@ -30,19 +30,35 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
+  height: 100vh;
+  margin: 60px; }
+
+.top-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; }
 
 .main-text {
-  text-align: center;
-  max-width: 500px; }
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 3em; }
+
+.signup {
+  margin: 0 auto; }
+
+.responsive {
+  width: 100%;
+  max-width: 150px;
+  height: auto; }
 
 .sendgrid-subscription-widget input {
   border: none; }
 
-form#sg-widget {
-  border: 1px solid black; }
+input#sg_custom_0, input#sg_email, #sg-submit-btn {
+  border-bottom: 1px solid black;
+  display: block;
+  min-width: 350px;
+  text-align: left; }
 
 div#sg-response {
   text-align: center;
