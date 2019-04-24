@@ -1,0 +1,49 @@
+body {
+  color: red;
+  font-family: Arial, Sans Serif; }
+
+#top, #bottom, #left, #right {
+  position: fixed;
+  border: 10px solid transparent;
+  border-image: 10 repeating-linear-gradient(45deg, red 0, red 1em, transparent 0, transparent 2em, #83d0f2 0, #83d0f2 3em, transparent 0, transparent 4em); }
+
+#left, #right {
+  top: 0;
+  bottom: 0; }
+
+#left {
+  left: 0; }
+
+#right {
+  right: 0; }
+
+#top, #bottom {
+  left: 0;
+  right: 0; }
+
+#top {
+  top: 0; }
+
+#bottom {
+  bottom: 0; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.main-text {
+  text-align: center;
+  max-width: 500px; }
+
+.sendgrid-subscription-widget input {
+  border: none; }
+
+form#sg-widget {
+  border: 1px solid black; }
+
+div#sg-response {
+  text-align: center;
+  margin-top: 1em; }
