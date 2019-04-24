@@ -64,3 +64,12 @@ input#sg_custom_0, input#sg_email, #sg-submit-btn {
 div#sg-response {
   text-align: center;
   margin-top: 1em; }
+
+#sg-submit-btn {
+  min-width: 362.78px; }
+
+::placeholder {
+  color: black; }
+
+input {
+  border-radius: 0 !important; }
