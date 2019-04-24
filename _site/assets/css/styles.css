@@ -1,11 +1,11 @@
 body {
-  color: red;
+  color: #FF0000;
   font-family: Arial, Sans Serif; }
 
 #top, #bottom, #left, #right {
   position: fixed;
   border: 10px solid transparent;
-  border-image: 10 repeating-linear-gradient(45deg, red 0, red 1em, transparent 0, transparent 2em, #83d0f2 0, #83d0f2 3em, transparent 0, transparent 4em); }
+  border-image: 10 repeating-linear-gradient(45deg, #FF0000 0, #FF0000 1em, transparent 0, transparent 2em, #83d0f2 0, #83d0f2 3em, transparent 0, transparent 4em); }
 
 #left, #right {
   top: 0;
