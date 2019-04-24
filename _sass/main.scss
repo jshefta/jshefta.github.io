@@ -37,8 +37,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-height: 100vh;
   margin: 60px;
+  overflow: hidden;
 }
 
 .top-section{
@@ -49,7 +50,7 @@ body {
 
 .main-text{
   text-align: left;
-  max-width: 500px;
+  max-width: 340px;
   margin-bottom: 3em;
 }
 
