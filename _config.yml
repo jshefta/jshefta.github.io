@@ -1,1 +1,4 @@
 baseurl: /jessmail-site
+sass:
+    style: compressed
+    sass_dir: _sass
