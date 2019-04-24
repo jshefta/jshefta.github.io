@@ -16,7 +16,7 @@ body {
 
 #top, #bottom, #left, #right {
 	position: fixed;
-  border: 10px solid transparent;
+  border: 10px solid white;
   border-image: 10 repeating-linear-gradient(45deg, $color-pink 0, $color-pink 1em, transparent 0, transparent 2em,
               $color-blue 0, $color-blue 3em, transparent 0, transparent 4em);
 

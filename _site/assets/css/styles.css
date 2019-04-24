@@ -4,7 +4,7 @@ body {
 
 #top, #bottom, #left, #right {
   position: fixed;
-  border: 10px solid transparent;
+  border: 10px solid white;
   border-image: 10 repeating-linear-gradient(45deg, red 0, red 1em, transparent 0, transparent 2em, #83d0f2 0, #83d0f2 3em, transparent 0, transparent 4em); }
 
 #left, #right {
