@@ -42,6 +42,11 @@ body {
   overflow: hidden;
 }
 
+.static{
+  overflow: visible;
+  color: black;
+}
+
 .top-section{
   display: flex;
   flex-direction: row-reverse;
@@ -94,4 +99,16 @@ div#sg-response {
 
 input {
     border-radius: 0 !important;
+}
+
+footer{
+  display: flex;
+  margin-top: 4em;
+    p{
+      padding: 0 0.5em;
+    }
+    a{
+      color: black;
+      font-size: 10px;
+    }
 }
