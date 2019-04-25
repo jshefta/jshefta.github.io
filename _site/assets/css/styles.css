@@ -75,6 +75,9 @@ div#sg-response {
   font-weight: bold;
   text-transform: uppercase; }
 
+.success .error {
+  font-size: 14px; }
+
 ::placeholder {
   color: black; }
 
