@@ -66,8 +66,10 @@ div#sg-response {
   margin-top: 1em; }
 
 #sg-submit-btn {
-  min-width: 362.78px;
-  -webkit-appearance: none; }
+  min-width: 375.59px;
+  -webkit-appearance: none;
+  font-weight: bold;
+  text-transform: uppercase; }
 
 ::placeholder {
   color: black; }
